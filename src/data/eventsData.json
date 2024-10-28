@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Tech Conference 2024",
+      "date": "2024-11-12",
+      "location": "San Francisco, CA",
+      "description": "An annual tech conference focusing on innovation and AI.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Art Festival",
+      "date": "2024-11-20",
+      "location": "New York, NY",
+      "description": "A celebration of local art, music, and creativity.",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  
