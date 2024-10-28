@@ -1,19 +1,51 @@
 [
-    {
+  {
       "id": 1,
       "name": "Tech Conference 2024",
       "date": "2024-11-12",
       "location": "San Francisco, CA",
       "description": "An annual tech conference focusing on innovation and AI.",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
+      "image": "https://www.wisestamp.com/wp-content/uploads/2020/01/2024_confrences-min.jpeg"
+  },
+  {
       "id": 2,
       "name": "Art Festival",
       "date": "2024-11-20",
       "location": "New York, NY",
       "description": "A celebration of local art, music, and creativity.",
-      "image": "https://via.placeholder.com/150"
-    }
-  ]
-  
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfbZG34Ibge3t1___CXgkZg0u0miAH2wX3tg&s"
+  },
+  {
+      "id": 3,
+      "name": "Global Gaming Expo",
+      "date": "2024-12-05",
+      "location": "Las Vegas, NV",
+      "description": "The world's largest gaming industry trade show.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIiil-ErKbWCvmUgD0sLugHPwDdCJbz_rrfg&s"
+      
+  },
+  {
+      "id": 4,
+      "name": "Sustainable Living Fair",
+      "date": "2024-11-25",
+      "location": "Sydney, Australia",
+      "description": "A showcase of eco-friendly products and practices.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hiSW-DYgn-kwn_ac1T7cZe2LRb26fNNNuw&s"
+  },
+  {
+      "id": 5,
+      "name": "Film Festival",
+      "date": "2024-12-15",
+      "location": "Berlin, Germany",
+      "description": "A prestigious international film festival.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Berlinale2007.jpg/275px-Berlinale2007.jpg"
+  },
+  {
+      "id": 6,
+      "name": "Music and Arts Festival",
+      "date": "2024-11-30",
+      "location": "Coachella Valley, CA",
+      "description": "A popular music and arts festival.",
+      "image": "https://i0.wp.com/festivalevents.org/wp-content/uploads/2024/07/Coachella-Valley-Music-and-Arts-Festival-1.jpg"
+  }
+]

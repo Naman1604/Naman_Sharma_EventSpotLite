@@ -1,27 +1,35 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import EventCard from './components/EventCard';
+import EventList from './components/EventList';
 import EventModal from './components/EventModal';
-import eventsData from './data/eventsData.json';
 import './styles/main.css';
+import eventData from './data/eventsData.json';
 
 function App() {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchName, setSearchName] = useState('');
+  const [searchLocation, setSearchLocation] = useState('');
   const [selectedEvent, setSelectedEvent] = useState(null);
 
-  const filteredEvents = eventsData.filter(event =>
-    event.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    event.location.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // Mock data for events
+  const events = eventData;
+
+  // Filter events based on search criteria
+  const filteredEvents = events.filter(event => {
+    return (
+      event.name.toLowerCase().includes(searchName.toLowerCase()) &&
+      event.location.toLowerCase().includes(searchLocation.toLowerCase())
+    );
+  });
 
   return (
     <div className="App">
-      <Navbar searchTerm={searchTerm} onSearchChange={(e) => setSearchTerm(e.target.value)} />
-      <div className="event-list">
-        {filteredEvents.map(event => (
-          <EventCard key={event.id} event={event} onClick={setSelectedEvent} />
-        ))}
-      </div>
+      <Navbar
+        searchName={searchName}
+        searchLocation={searchLocation}
+        onNameChange={(e) => setSearchName(e.target.value)}
+        onLocationChange={(e) => setSearchLocation(e.target.value)}
+      />
+      <EventList events={filteredEvents} onEventClick={setSelectedEvent} />
       <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} />
     </div>
   );

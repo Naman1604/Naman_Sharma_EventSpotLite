@@ -16,6 +16,20 @@
     border-radius: 5px;
     animation: fadeIn 0.3s ease-in-out;
   }
+  .modal-content {
+    max-width: 600px; /* Maximum width of the modal */
+    margin: auto; /* Center the modal */
+    padding: 20px; /* Add some padding */
+    position: relative; /* For positioning elements inside */
+    overflow: hidden; /* Prevent overflow of the content */
+  }
+  
+  .modal-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Optional: limit the height */
+    object-fit: cover; /* Cover the area without distortion */
+  }
   
   @keyframes fadeIn {
     from { opacity: 0; }
