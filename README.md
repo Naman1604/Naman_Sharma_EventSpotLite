@@ -1,12 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EventSpot Lite
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Features](#Features)
+- [Technology](#Technology)
+- [LiveDemo](#Live Demo)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Questions](#questions)
 
-### `npm start`
+## Description:
+EventSpot Lite is a responsive single-page web application that allows users to discover local events happening around them. With a modern design, smooth animations, and search capabilities, users can search for events by name or location and view detailed information in a modal.
+
+## Features
+
+- **Event Listing**: Displays a list of events with details like name, date, and location.
+- **Search Functionality**: Dual search functionality for filtering events by name and location.
+- **Event Details Modal**: Click on an event to view more details, including an image and description, in a modal window.
+- **Responsive Design**: Optimized for various devices, from desktop to mobile.
+- **Smooth Animations**: Hover effects, modal transitions, and visual feedback enhance the user experience.
+
+## Technology
+
+- **Frontend**: React (JavaScript library for building the user interface)
+- **Styling**: CSS
+
+## Live Demo
+
+Check out the live version of EventSpot Lite here: [EventSpot Lite Live](https://naman-sharma-event-spot-lite.vercel.app/)  
+*(Replace with your actual Vercel link)*
+
+## Installation
+
+To run this project, install it locally using npm:
+
+```
+npm install
+```
+
+## Usage
+
+After installing npm packages, the application will be invoked by using the following command:
+
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +56,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
+This project is licensed under MIT, for more information please visit [this website](https://opensource.org/licenses/MIT)
 
-### `npm run build`
+## Contribution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Made with ❤️ by Naman Sharma
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Questions?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please feel free to contact me if you need any further information:
 
-### `npm run eject`
+- [Email](namans12112@gmail.com)
+- [Github Profile](https://github.com/Naman1604)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
